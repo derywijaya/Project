@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_excel ("sampah.xlsx")
+df = pd.read_csv ("sampah.csv")
 ds = pd.read_csv ("Tahun.csv")
 st.title("Kajian terhadap Penanganan Sampah di Indonesia")
 
